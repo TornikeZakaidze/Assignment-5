@@ -2,15 +2,14 @@
 /* header */
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 .headrec {
     vertical-align: middle;
-    width: 100%;
+    width: 3000px;
     height: 60px;
     background-color: #FFFFFF;
-    ;
     display: inline-block;
 }
 .head {
