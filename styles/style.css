@@ -7,12 +7,13 @@ body {
 header {
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 .headrec {
     vertical-align: middle;
     width: 3000px;
     height: 60px;
-    background-color: red;
+    background-color: whitesmoke;
     display: inline-block;
 }
 .head {
@@ -30,7 +31,7 @@ header {
     vertical-align: middle;
 }
 
-/* middle part */
+/* trading */
 
 .trading {
     padding-left: 137px;
@@ -40,10 +41,16 @@ header {
     line-height: 28px;
     padding-bottom: 27px;
 }
+.contaiiner {
+    border: 5px solid;
+    margin: 0 auto;
+    width: 100%;
+}
 .rectangle {
     width: 362px;
     height: 171px;
     background-color: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
 }
 .imagestuff {
     position: relative;
@@ -92,4 +99,123 @@ header {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* happening now */
+
+.now {
+    padding-top: 57px;
+    padding-left: 140px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 800;
+}
+.bridgetext {
+    position: absolute;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 203px;
+    padding-left: 278px;
+}
+
+/* large images */
+
+.largeimages {
+    width: 758px;
+    display: inline-block;
+    vertical-align: top;
+    position: static;
+}
+.bridgewithtext {
+    position: relative;
+    display: inline-block;
+}
+.nature2 {
+    margin-top: 42px;
+}
+
+/* small images */
+
+.smallimages {
+    margin-left: 30px;
+    display: inline-block;
+}
+.nature {
+    display: block;  
+}
+.elephants {
+    margin-top: 100px;
+    display: block;
+}
+.city {
+    margin-top: 100px;
+    display: block;
+}
+.contaiiner2 {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* footer */
+
+footer {
+    padding-top: 36px;
+}
+.footerrec {
+    display: inline-flex;
+    width: 100%;
+    height: 201px;
+    background-color: #243043;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #818687;
+    
+}
+.sec1 {
+    padding-top: 59px;
+    padding-right: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sec2 {
+    padding-top: 59px;
+    padding-right: 100px;
+    display: inline-block;
+}
+.sec3 {
+    padding-top: 59px;
+    display: inline-block;
+}
+li {
+    padding-bottom: 14px;
+}
+.sections {
+    padding-left: 137px;
+    display: inline-flex;
+    vertical-align: top;
+}
+.geolab {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 112px;
+    padding-top: 59px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    width: 364px;
+    height: 14px;
+    display: inline-flex;
+}
+.geolablogo {
+    width: 38px;
+    height: 40px;
+    margin-top: 58px;
+    margin-left: 416px;
 }
