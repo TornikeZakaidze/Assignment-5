@@ -41,10 +41,9 @@ header {
     line-height: 28px;
     padding-bottom: 27px;
 }
-.contaiiner {
-    border: 5px solid;
+.container {
+    width: 1240px;
     margin: 0 auto;
-    width: 100%;
 }
 .rectangle {
     width: 362px;
@@ -55,9 +54,6 @@ header {
 .imagestuff {
     position: relative;
     display: inline-block;
-}
-.img1 {
-    max-width: 100%;
 }
 .imgtext {
     position: absolute;
@@ -129,7 +125,6 @@ header {
     width: 758px;
     display: inline-block;
     vertical-align: top;
-    position: static;
 }
 .bridgewithtext {
     position: relative;
@@ -142,7 +137,7 @@ header {
 /* small images */
 
 .smallimages {
-    margin-left: 30px;
+    margin-left: 45px;
     display: inline-block;
 }
 .nature {
@@ -156,9 +151,9 @@ header {
     margin-top: 100px;
     display: block;
 }
-.contaiiner2 {
+.container2 {
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
 }
 
 /* footer */
@@ -167,7 +162,7 @@ footer {
     padding-top: 36px;
 }
 .footerrec {
-    display: inline-flex;
+    position: relative;
     width: 100%;
     height: 201px;
     background-color: #243043;
@@ -214,8 +209,9 @@ li {
     display: inline-flex;
 }
 .geolablogo {
-    width: 38px;
-    height: 40px;
+    position: absolute;
     margin-top: 58px;
-    margin-left: 416px;
+    margin-right: 138px;
+    top: 0;
+    right: 0;
 }
